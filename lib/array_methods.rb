@@ -15,10 +15,10 @@ def find_max_value(array)
 end
 
 def find_min_value(array)
-  max = 0
+  min = 0
   i = 0
   while array.length > i do
-    if array[i] > max
+    if array[i] < min
       max = array[i]
     end
       i+= 1
